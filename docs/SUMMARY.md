@@ -3,4 +3,5 @@
 * [Introduction](README.md)
 * [Protocol Design](protocol-design.md)
 * [Architecture](architecture.md)
+* [Comparison](comparison.md)
 * [Important Links](important-links.md)
