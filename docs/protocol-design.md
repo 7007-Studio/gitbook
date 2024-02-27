@@ -1,16 +1,27 @@
 # Protocol Design
+The AIGC NFT marketplace's protocol design is a sophisticated framework tailored to facilitate the creation, trading, and monetization of AI-generated content. This design includes several key components to support the ecosystem's unique requirements.
 
-The Gold Shovel - Initial Model Offering (IMO) protocol is introduced as a pioneering mechanism aimed at addressing the monetization challenges encountered by open-source AI projects. These challenges primarily revolve around the sustainability of open-source models and the need to provide economic incentives for creators while preserving transparency and accessibility.
+## Sub-Model Creation and Fine-Tuning
+- **Choose Base Model**: Creators select a base AI model from a curated list, optimized for various content types (e.g., text, image, music).
+- **Setup AIGC NFT Collection**: Define the collection's parameters, including theme, AI model specifications, and intended output.
+- **NFT Price & Supply**: Set the initial pricing strategy and supply cap for the NFT collection to ensure scarcity and value.
 
-![Diagram 1](./assets/imo.jpg)
+## Create AIGC NFT
+- **Inference and Mint AIGC NFT**:
+  Pick sub-models tailored for specific content generation.
+Generate content through AI inference.
+Mint the generated content as NFTs on the blockchain.
+- **Mint Fee Distribution**:
+Automatically distribute minting fees among prompt and model owners, ensuring fair compensation for their contributions.
 
-The IMO protocol encompasses a well-defined process:
+## Monetization on Story Protocol
+- **Integrate IPA Register**: Implement an Intellectual Property Agreement (IPA) registry to protect creators' rights.
+- **Integrate License**: Allow NFT owners to license their AI-generated content for commercial use.
+- **Integrate Royalty Distribution**: Ensure ongoing royalty payments to original creators and prompt owners from secondary sales or commercial uses.
 
-- Model Tokenization: AI model creators initiate the IMO process by tokenizing their models, converting them into AI Model Tokens. These tokens serve as digital representations of model ownership and value within the blockchain ecosystem.
-- Token Sale: Model creators conduct a token sale event, during which users can acquire AI Model Tokens, thereby supporting the ongoing development and monetization of the AI model.
-- Revenue Sharing: As the AI model generates revenue through its usage, a predefined portion of these earnings is distributed proportionally among AI Model Token holders. This mechanism ensures equitable compensation for contributors to the model's success.
-- Governance Framework: AI Model Token holders actively participate in the governance of the AI model. They engage in decision-making processes related to model updates, enhancements, and configuration adjustments, promoting a decentralized and collaborative model management approach.
-
-The IMO process, as depicted in Diagram 1, involves two critical phases: the pre-launch and the official launch. Initially, during the pre-launch stage, users have the opportunity to stake ETH to acquire AI Model tokens at no cost. This phase primarily functions as a marketing strategy, assessing the popularity of a particular AI model and increasing visibility within the cryptocurrency community. Subsequently, the official launch commences after a set duration, wherein users can purchase AI Model tokens using ETH. These tokens play a pivotal role in the governance and voting processes of the AI model and also determine the revenue share percentage allocated to each token holder. (Diagram 2) The revenue comes from not only the AIGC nft minting sales, but also the secondary sales in the NFT marketplace.
-
-![Diagram 2](./assets/protocol.jpg)
+## Prompt Namespace
+- **Prompt Auction**: Enable the registration and auction of unique prompt tags, allowing creators to monetize innovative ideas.
+- **Prompt Detection**: Automatically detect when prompts are used for generating AIGC NFTs to ensure proper attribution and compensation.
+- **Prompt Fractionalization**: Allow for the fractional ownership of prompt tags, enabling collective investment in high-potential prompts.
+Advanced Search
+- **Prompt Tags**: Enhance search capabilities to filter and discover NFTs based on specific prompt tags, facilitating a more targeted exploration of the marketplace.
