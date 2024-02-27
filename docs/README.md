@@ -1,4 +1,6 @@
 # Introducing the AIGC NFT Marketplace
+![Screenshot 2024-02-21 at 2 25 29 AM](https://github.com/7007-Studio/gitbook/assets/19768276/ed067735-ad0e-4467-90ea-ff292086aefb)
+
 ## The Need for a Specialized Marketplace
 In the rapidly evolving landscape of digital art and content creation, the emergence of Artificial Intelligence Generated Content (AIGC) has opened up new frontiers for creativity and innovation. However, the unique characteristics of AIGC—such as the importance of prompts, the variability of AI models, and the nuanced interpretation of AI-generated outputs—demand a specialized marketplace that goes beyond the capabilities of traditional NFT platforms like OpenSea.
 
