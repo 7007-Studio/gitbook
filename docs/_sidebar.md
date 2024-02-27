@@ -3,4 +3,5 @@
 - [Architecture](architecture.md)
 - [Comparison](comparison.md)
 - [Use Case](usecase.md)
+- [Roadmap](roadmap.md)
 - [Important Links](important-links.md)
