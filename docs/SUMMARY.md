@@ -1,5 +1,5 @@
 # Table of contents
 
-* [7007 Studio Documentation](README.md)
+* [Introduction](README.md)
 * [Architecture](architecture.md)
 * [Important Links](important-links.md)
