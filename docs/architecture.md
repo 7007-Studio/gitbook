@@ -41,5 +41,3 @@ interface IERC7007 is IERC165, IERC721 {
 7007.studio performs IP Asset registration for each AIGC NFT using the story Protocol, which contains the Prompt used to generate the content and its corresponding generation result.
 
 All Prompts and generated results can be used on the Story Protocol, and owners can edit the License for individual content, providing more diverse commercial licensing models and revenue streams.
-
-```
