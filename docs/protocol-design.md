@@ -1,6 +1,8 @@
 # Protocol Design
 The AIGC NFT marketplace's protocol design is a sophisticated framework tailored to facilitate the creation, trading, and monetization of AI-generated content. This design includes several key components to support the ecosystem's unique requirements.
 
+![7007 new](https://github.com/7007-Studio/gitbook/assets/19768276/5e9011c2-c8ee-45d9-a392-7aa6d0b57fb0)
+
 ## Sub-Model Creation and Fine-Tuning
 - **Choose Base Model**: Creators select a base AI model from a curated list, optimized for various content types (e.g., text, image, music).
 - **Setup AIGC NFT Collection**: Define the collection's parameters, including theme, AI model specifications, and intended output.
